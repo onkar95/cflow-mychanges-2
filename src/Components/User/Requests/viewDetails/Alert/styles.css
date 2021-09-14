@@ -1,0 +1,52 @@
+ .redalert-container {
+     display: flex;
+     flex-flow: row nowrap;
+     border: 1px solid #F03738;
+    box-sizing: border-box;
+    background-color: #121417;
+    padding: 20px;
+    color: #F03738;
+ }
+
+ .redalert {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Yellow - primary */
+    
+    color: #F03738;
+    
+ }
+
+ .yellowalert-container {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid #FFB600;
+   box-sizing: border-box;
+   background-color: #121417;
+   padding: 20px;
+   color: #FFB600;
+}
+
+.yellowalert {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Yellow - primary */
+    
+    color: #FFB600;
+}

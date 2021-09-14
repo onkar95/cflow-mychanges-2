@@ -1,0 +1,100 @@
+.checkbox {
+  margin-bottom: 5%;
+}
+.toggle-checkbox {
+  margin-bottom: 5%;
+  width: 47%;
+  height: 10%;
+}
+.cement-form-input {
+  width: 200px !important;
+  
+}
+.cement-cart-button {
+  height: 40px !important;
+  margin-top: 10%; 
+  background-color: #ffb600 !important; 
+  margin-right:6% !important;
+}
+.cement-cart-button1 {
+  height: 40px !important; 
+  margin-top: 10%; 
+  background-color: #ffb600 !important; 
+}
+.sand-form-input {
+  width: 95% !important;
+  margin: auto !important;
+}
+.paint-color {
+  margin-top: 25% !important;
+}
+.selected-header {
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+.description {
+  font-size: small;
+  color: #484848;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.MuiAutocomplete-listbox {
+  background-color: black;
+  color:white;
+}
+.button-group {
+  display: flex;
+}
+.add-more {
+  color: #ffb600;
+}
+.add-more:hover {
+  cursor: pointer;
+}
+.selected-item {
+  height: 750px;
+}
+.cement-bottom-buttons {
+  margin-top: 10%;
+  width: 100%;
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: flex-end;
+  height:5% !important; 
+}
+.MuiFormControlLabel-label {
+  width: 100%;
+}
+.MuiRadio-colorSecondary.Mui-checked {
+  color: #f59300 !important;
+}
+@media screen and (max-width: 450px) {
+  .toggle-checkbox {
+    height: 3rem !important;
+  }
+  .InputField {
+    width: 90px !important;
+    height: 52px !important;
+  }
+  .quantity {
+    width: 220px !important;
+  }
+  .select {
+    width: 100px !important;
+    margin: 0%;
+  }
+  .InputField1 {
+    height: 70% !important;
+    width: 100% !important;
+  }
+  .span-container {
+    margin-top: 2% !important;
+  }
+  .sand-input-checkbox {
+    border: 0px !important;
+    transform: scale(2) !important;
+  }
+  .checked-icon {
+    transform: scale(1) !important;
+  }
+}

@@ -1,0 +1,19 @@
+.service-card-container {
+  background-color: #08090c;
+  border-radius: 20px;
+
+  max-height: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.service-card-image {
+  height: 75px;
+  margin-bottom: 2px;
+}

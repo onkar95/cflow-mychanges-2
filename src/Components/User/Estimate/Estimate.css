@@ -1,0 +1,10 @@
+.estimate {
+  background: #08090c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 30vh;
+  width: 100%;
+  margin: 2rem 0rem;
+}

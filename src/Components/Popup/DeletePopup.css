@@ -1,0 +1,141 @@
+.main-del {
+  overflow: hidden;
+  width: 360px;
+  height: 400px;
+}
+
+.ButtonLogout {
+  font-size: 1rem;
+  cursor: pointer;
+  width: 106px;
+  height: 40px;
+  left: 135px;
+  background: #ffb600;
+  border-radius: 4px;
+}
+.ButtonCancel {
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  width: 106px;
+  height: 40px;
+  left: 150px;
+  top: 330px;
+  border: 1px solid #ffb600;
+  border-radius: 4px;
+}
+.SocialLogo {
+  position: absolute;
+
+  right: 0px;
+  background-color: #121417;
+}
+
+.SocialLogo a {
+  padding: 8px;
+  width: 10px;
+}
+.delete-dialog-img {
+  position: absolute;
+  width: 285px;
+  height: 86px;
+  left: 0px;
+  top: 23px;
+}
+.dialog-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100% !important;
+  background: #121417;
+}
+
+.dialog-content {
+  width: 100% !important;
+  background: #121417;
+  overflow: hidden;
+}
+.dialog-img1 {
+  margin-top: 10px;
+}
+
+.dialog-content p {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .delete-dialog-buttons {
+    margin-top: 1rem;
+  }
+  .main-del {
+    overflow: hidden;
+    width: 300px;
+  }
+  .ButtonCancel {
+    left: 113px;
+    margin-top: -0.4rem;
+  }
+  .SocialLogo a {
+    padding: 8px;
+    width: 10px;
+    top: 500px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ButtonLogout {
+    width: 86px;
+    height: 35.35px;
+  }
+  .ButtonCancel {
+    margin-top: 2rem;
+    width: 86px;
+    margin-top: -1.7rem;
+    height: 35.35px;
+    left: 120px;
+  }
+
+  .dialog-content p {
+    margin-top: 2rem;
+
+    overflow: hidden;
+  }
+  .dialog-img1 {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ButtonLogout {
+    width: 86px;
+    height: 35.35px;
+  }
+
+  .ButtonCancel {
+    margin-top: 2rem;
+    width: 86px;
+    height: 35.35px;
+    margin-top: -1.8rem;
+
+    left: 120px;
+  }
+
+  .dialog-content p {
+    margin-top: 2rem;
+
+    overflow: hidden;
+  }
+  .dialog-img1 {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .ButtonLogout {
+    width: 76px;
+    height: 35.35px;
+  }
+  .ButtonCancel {
+    width: 76px;
+    height: 35.35px;
+    margin-top: -1.8rem;
+    left: 112px;
+  }
+}
